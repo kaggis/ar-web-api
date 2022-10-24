@@ -4,6 +4,7 @@ import "gopkg.in/mgo.v2/bson"
 
 // datastore collection name that contains aggregations profile records
 const groupColName = "endpoint_group_ar"
+const endpointColName = "endpoint_ar"
 
 // MonthlyGroup query to aggregate monthly results from mongodb
 func MonthlyGroup(filter bson.M) []bson.M {
